@@ -1,0 +1,24 @@
+package comprobaciones;
+import dominio.Habitante;
+import dominio.OficinaPadron;
+import presentacion.InterfazUsuario;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.io.File;
+import java.io.IOException;
+
+public class Comprobacion
+{   
+    public static void realizarComprobacion(){
+        OficinaPadron padron = new OficinaPadron();
+        ArrayList<Habitante> habitantes = padron.getHabitantesPadron();
+            for(Habitante habitante : habitantes){
+                System.out.println(
+                    habitante.getNombre() + " " +
+                    habitante.getApellido1() + " " +
+                    habitante.getApellido2());
+            }
+        System.out.println("El número total de habitantes es " + padron.calcularNumeroHabitantes());
+    }
+}

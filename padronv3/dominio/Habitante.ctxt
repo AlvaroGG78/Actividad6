@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Habitante
+comment1.params=nombre\ apellido1\ apellido2
+comment1.target=Habitante(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+comment2.text=public\ void\ setNombre(String\ nombreHabitante){\r\n\ \ \ \ \ \ \ \ this.nombre\ \=\ nombreHabitante;\r\n\ \ \ \ }\r\n\ \ \ \ \r\n\ \ \ \ public\ void\ setApellido1(String\ apellido1Habitante){\r\n\ \ \ \ \ \ \ \ this.apellido1\ \=\ apellido1Habitante;\r\n\ \ \ \ }\r\n\ \ \ \ \r\n\ \ \ \ public\ void\ setApellido2(String\ apellido2Habitante){\r\n\ \ \ \ \ \ \ \ this.apellido2\ \=\ apellido2Habitante;\r\n}
+comment3.params=
+comment3.target=java.lang.String\ getApellido1()
+comment4.params=
+comment4.target=java.lang.String\ getApellido2()
+numComments=5
