@@ -13,6 +13,6 @@ en un paquete "aplicacion", que mandaba ejecutar la clase InterfazUsuario. Poste
 comandos, se creó el directorio "bin" y se compilaron los archivos .Java dentro del mismo.
 
 Ahora se puede ejecutar el pograma desde la consola.
-Mediante el comando "java -cp bin aplicacion.Principal anadir Alvaro Garcia Gonzalez", el programa añade un
+Mediante el comando "java -cp bin aplicacion.Principal anadir Alvaro Garcia Gonzalez" (¡"anadir" con "n"!), el programa añade un
 nuevo habitante al archivo CSV con el nombre indicado.
 Se puede comprobar con el comando "java -cp bin aplicacion.Principal mostrar".
